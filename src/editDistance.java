@@ -5,6 +5,7 @@ import java.util.Iterator;
 
 public class editDistance {
 
+		private static final String P = null;
 		static int[][] D=new int[10][10];//D[i,j]
 		static String[] bestCur=new String[10];//store each step state
 		static ArrayList bestStep=new ArrayList();
@@ -267,6 +268,8 @@ public class editDistance {
 					 for (int ci=0;ci<bestCur[dr].length();ci++)
 					 {
 						
+						int jndex = 0;
+						int j = 0;
 						if(ci==0)
 						 {
 							  if(p.substring(jndex, j+1).charAt(ci)!=p.charAt(ci))
