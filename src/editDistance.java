@@ -3,7 +3,6 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 
-
 public class editDistance {
 
 		static int[][] D=new int[10][10];//D[i,j]
