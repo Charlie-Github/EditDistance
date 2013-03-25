@@ -48,9 +48,9 @@ public class editDistance {
 	int lenT=strT.length();
 	
 	
-	//System.out.println(lenT);
-	//System.out.println("Pattern: "+strP);
-	//System.out.println("Target: "+strT);		
+	System.out.println(lenT);
+	System.out.println("Pattern: "+strP);
+	System.out.println("Target: "+strT);		
 	/**********************************************************************************/
 	bestCur[0]=strP;
 	int i,j;
