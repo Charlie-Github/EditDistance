@@ -50,7 +50,7 @@ public class editDistance {
 	
 	System.out.println(lenT);
 	System.out.println("Pattern: "+strP);
-	System.out.println("Target: ");		
+	System.out.println("Target: "+B);		
 	/**********************************************************************************/
 	bestCur[0]=strP;
 	int i,j;
