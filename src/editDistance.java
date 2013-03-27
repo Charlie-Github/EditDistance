@@ -4,7 +4,7 @@ import java.util.Iterator;
 
 
 public class editDistance {
-
+//here add one line
 		private static final String P = null;
 		static int[][] D=new int[10][10];//D[i,j]
 		static String[] bestCur=new String[10];//store each step state
