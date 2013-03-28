@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 import java.io.*;
 
+=======
+
+import java.util.ArrayList;
+>>>>>>> shorten
 import java.util.Iterator;
 
 
